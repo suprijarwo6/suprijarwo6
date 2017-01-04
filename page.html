@@ -1,0 +1,197 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Ebook Coolection</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" title="style" />
+  <link rel="canonical" href=".$siteurl.$uri." />
+  <meta content='Global' name='distribution'/>
+  <meta content='all' name='robots'/>
+  <meta content='all' name='spiders'/>
+  <meta content='en-us' name='language'/>
+  <meta content='us' name='geo.country'/>
+  <meta content='United States' name='geo.placename'/>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+  <meta content='never' http-equiv='xpires'/>
+  <meta content='general' name='rating'/>
+  <meta content='us' name='geo.region'/>
+  
+  
+<style>
+.search-box input[type=text],
+.search-box input[type=text]:focus{
+	width:84%;
+	background:#f9f9f9;
+	color:#767676;
+	border:none;
+    font-size:20px;
+	-webkit-appearance: none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;
+	-moz-box-shadow:inset 0 0 20px 0 rgba(0,0,0,0.3);
+	-webkit-box-shadow:inset 0 0 2px 0 rgba(0,0,0,0.3);
+	box-shadow:inset 0 0 2px 0 rgba(0,0,0,0.3);
+}
+.search-box input[type=text],
+.search-box input[type=submit]{
+	float:left;
+	height:40px;
+	display:block;
+	-webkit-appearance: none;
+	-webkit-border-radius:0;
+	-moz-border-radius:0;
+	border-radius:0;	
+}
+
+.search-box input[type=submit]{
+	width:100px;
+	background: #ff664d; /* Old browsers */
+background: -moz-linear-gradient(top,  #ff664d 0%, #fc492d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff664d), color-stop(100%,#fc492d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #ff664d 0%,#fc492d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #ff664d 0%,#fc492d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #ff664d 0%,#fc492d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #ff664d 0%,#fc492d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff664d', endColorstr='#fc492d',GradientType=0 ); /* IE6-9 */
+	border:none;
+	-webkit-appearance: none;
+	color:#fff;
+	font-size:25px;
+	position:relative;
+	height:40px;
+	padding:0;
+}
+.search-box input[type=submit]:hover{
+	background:rgba(0,0,0,0.6);
+}
+.content{
+	padding:10px;
+}
+ 
+  </style>
+<script src='https://jshost-c8571.firebaseapp.com/js/jquery.min.js' type='text/javascript'></script>
+<script type='text/javascript' src='https://jshost-c8571.firebaseapp.com/js/jswap.js'></script>
+<script type='text/javascript'>
+$(document).ready(function(){
+   var ltitle = document.title;
+   var url = document.URL;
+   var param = document.URL.split("q=")[1];
+   var kw=param.replace(/\+/g,' ');
+   var ptitle = kw;
+
+   String.prototype.ucwords = function() {
+    str = this.toLowerCase();
+    return str.replace(/(^([a-zA-Z\p{M}]))|([ -][a-zA-Z\p{M}])/g,
+        function($1){
+            return $1.toUpperCase();
+        });
+   }
+var spin = ['[F.R.E.E]','[DOWNLOAD]','[PDF]','[EPUB]','[EBOOK]','[P.D.F]','[R.E.A.D]','[FREE]','[E-BOOK]','[FREE EBOOK]'];
+   var utitle = ltitle.ucwords();
+   var uptitle = ptitle.ucwords();
+
+var panjang= uptitle.length;
+var stringe =new String(panjang);
+var last=stringe[stringe.length-1]; 
+var judule=spin[last]+' '+uptitle;
+$('#judule').html(judule);
+	var datameta =[""+uptitle+" You can download here source for free eBook downloads, eBook resources. Read and download eBooks for Free: anytime!",""+uptitle+" is a free ebooks source where you can download totally free ebooks, available in various popular formats. Lots of categories to choose.",""+uptitle+". Thousands of free ebooks, pre-formatted for reading on your computer, smartphone, iPod, or e-reading device - ePUB, Kindle, eReader, PDF, Plucker, iSilo, Doc, RTF, Mobipocket, Newton Paperback, and zTXT ebooks ready to go!",""+uptitle+". More Ebooks! Looking for more eBooks? Click here to Download "+uptitle+" . It would be nice if we're able to download free e-book "+uptitle+" and take it with us."];
+		var randmeta = datameta[Math.floor(Math.random() * datameta.length)];
+
+$(document).attr('title', judule+' | '+ltitle);
+$('.logo').html(judule+' | '+ltitle);
+
+$('#itemreviewed').html(judule);
+$("link[rel=canonical]").attr("href",url);
+$("meta[name=description]").attr("content",randmeta);
+ $("meta[name=keywords]").attr("content",""+ptitle+",online book reading "+ptitle+",online ebook reading "+ptitle+",mobile ebook "+ptitle+",download ebook "+ptitle+",latest ebook online "+ptitle+",free ebook "+ptitle+",free ebook download,read ebook free,download free books,free ebooks,free ebooks,download,read free ebook,mobile book,download book,latest book online,free book,free book download,read book free,download free books,free books,free books,download,read free book");
+$('.post-content').html(randmeta);
+
+});
+</script>
+
+
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,3569068,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+  
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+    <div id="site_content">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1 id="judule"><a href="index.html">Free Ebooks <span class="logo_colour">Collection</span></a></h1>
+         
+        </div>
+      </div>
+       </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li ><a href="index.html">Home</a></li>
+          <li class="selected"><a href="page.html">Books Collection</a></li>
+          <li><a href="?q=dmca.html">DMCA Notice</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+     
+    </div>
+       
+    
+    <div id="site_content">
+      <div class="clear"></div>
+	    <div class="search-box">
+	    	<form action="" method="get">
+	    		<input type="text" name="q" placeholder="Search Ebooks" />
+	    		<input type="submit" value="Search" />
+	    	</form>
+            </div>
+	    	<div class="clear"></div>
+            <div class="clear"></div>
+            <div class="clear"></div>
+            
+            <div class="clear"></div>
+            </div>
+  <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>More Ebook</h3>
+        <div id="morebook">morebook</div>
+        
+      </div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <div style='display:none;'>
+<div class='vcard'>
+
+<span itemprop='description'><span itemprop='itemreviewed' id="itemreviewed"></span></span>
+        Rating: <span itemprop='rating'>4.5</span>
+        By: <span class='fn n'>
+<span class='given-name' itemprop='reviewer'>Members</span>
+</span>
+</div>
+</div>
+        <div class="post-content">
+        
+      </div>
+    </div>
+    <div id="footer">
+      Copyright &copy; 2017
+    </div>
+  </div>
+</body>
+</html>

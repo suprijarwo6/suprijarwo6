@@ -1,0 +1,9 @@
+User-agent: Mediapartners-Google
+Disallow: 
+Allow: /
+Allow: /*
+
+User-agent: *
+Disallow:
+Allow: /
+Allow: /*
